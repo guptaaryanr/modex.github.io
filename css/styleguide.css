@@ -1,0 +1,38 @@
+:root { 
+  --black: #000000;
+  --delta: #a2a2a2;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 22px;
+  --font-size-s: 18px;
+  --font-size-xl: 48px;
+  --font-size-xs: 16px;
+  --font-size-xxs: 11px;
+  --font-size-xxxs: 8px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-bold-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-black-8px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-delta-8px {
+  color: var(--delta);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
